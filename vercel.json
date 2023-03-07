@@ -1,12 +1,13 @@
 {
   "functions": {
-    "api/index.php": {
-      "runtime": "@vercel/php",
-      "memory": 128,
-      "maxDuration": 5000,
-      "includeFiles": [
-        "api/index.php"
-      ]
+    "api/test.js": {
+      "memory": 3008,
+      "maxDuration": 30
+    },
+    "api/*.js": {
+      "memory": 3008,
+      "maxDuration": 30
     }
   }
 }
+
